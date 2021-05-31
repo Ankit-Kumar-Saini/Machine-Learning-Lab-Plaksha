@@ -1,8 +1,5 @@
 # Variational Autoencoder (MNIST)
 
-## Notebook inspired from keras tutorial on mnist vae 
-
-
 ## Dependencies
 - Keras
 - TensorFlow
