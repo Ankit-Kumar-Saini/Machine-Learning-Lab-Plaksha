@@ -1,71 +1,99 @@
 # Plaksha Machine Learning Lab Assignments
 
-- This repository contains programming assignments from the core subject `Applications of Data Science`, that were completed as part of the `Plaksha Tech Leaders Fellowship` program.
+- This repository contains programming assignments from the core subject `Machine Learning`, that were completed as part of the `Plaksha Tech Leaders Fellowship` program.
 
 ### Table of Contents
 1. [Instructions to use the repository](#instructions)
 2. [List of Dependencies](#dependency)
 3. [File Descriptions](#desc)
-4. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Results](#result)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
+
+
+## Instructions to use the repository<a name="instructions"></a>
+1. Clone the repository to use it.
+`https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha`
 
 
 ## List of Dependencies<a name="dependency"></a>
-The `requirements file` list all the libraries/dependencies required to run the notebooks/projects in this repository.
-
-## Instructions to use the repository<a name="instructions"></a>
-1. Clone this github repository and start using it.
-`git clone https://github.com/Ankit-Kumar-Saini/Applications-of-Data-Science`
+The `requirements.txt file` list all the libraries/dependencies required to run the notebooks/projects in this repository.
 
 
 ## File Descriptions<a name="desc"></a>
-1. `Sentiment Analysis folder`: It contains code to deploy a web app for movie review sentiment analysis. The following files/folders are present inside
-	1. app folder: It contains the main python script `app.py` to run the web app, templates to render the web app and a `SQL database` to store the user inputs.
-	2. models folder: It contains the tokenizer and weights of the model. These are loaded to run the model for making predictions on user input during inference.
-	3. sentiment analysis.ipynb: This jupyter notebook contains the code to train the model using bag of words approach on movie reviews. It also has the code to `train Word Embeddings` from scratch.
+1. `Machine Learning`: This folder contains machine learning assignments in the form of jupyter notebooks and datasets that were used to train the models. The details of the files/folders present inside this folder are as follows: 
 
-2. Basics of SQL.ipynb: This jupyter notebook demonstrates the use of basic SQL commands on a toy dataset.
 
-3. Transfer Learning.ipynb: This notebook contains code to classify images of Cat, Kanye West and Pickachu using pre-trained EfficientNetB0 model.
+	1. `Data Sets`: This folder contains all the datasets that were used to complete the programming assignments.
 
-4. WebScrapping1.ipynb: This notebook demonstrates the use of `Beautiful Soup` library for web scrapping with an example.
+	2. `Jupyter Notebooks`: The following jupyter notebooks are present in this folder
+	    1. `Lab1 Taylor Series & Contour Plots.ipynb`: Code to approximate a given function at given points using Taylor Series expansion using numpy library.
 
-5. WebScrapping2.ipynb: This notebook uses `Beautiful Soup` library to scrape Covid-19 data from Wikipedia. Exploratory data analysis (EDA) is carried out on this data and a linear regression model is trained to make predictions on the number of covid-19 cases for selected countries.
+	    2. `Lab2 Loss Functions.ipynb`: Implementation of different loss functions in numpy.
 
-6. Visualization data: This folder contains data for creating visualizations in `matplotlib`.
+	    3. `Lab3 Linear Models.ipynb`: LinearRegression model training on random data using scikit-learn library.
 
-7. dog_cat: This is a dummy database file created to demonstrate the use of basic SQL queries.
+	    4. `Lab4 Logistic Regression.ipynb`: LogisticRegression model to classify housing data into low and high price using scikit-learn library.
+
+	    5. `Lab5 Random Forest Model and MLP.ipynb`: RandomForestClassifier and Multi Layer Perceptron (MLP) to classify MNIST digits using scikit-learn library.
+
+	    6. `Lab6 Ensemble Methods.ipynb`: Training of Bagging and Voting classifiers using scikit-learn library.
+
+	    7. `Server Load Prediction.ipynb`: Prediction of server load using RandomForestClassifier model.
+
+
+3. `Deep Learning`: This folder contains deep learning assignments in form of jupyter notebooks. All the notebooks are not part of the Plaksha curriculum. Few notebooks resulted from my personal interest to go deeper into the deep learning domain. The following jupyter notebooks are present in this folder
+
+	1. `MNIST digit classification.ipynb`: Building and training of CNN model from scratch to classify MNIST digits into 10 classes (0-9). Use of image **data augmentation to avoid overfitting** during training.
+
+	2. `Transfer Learning.ipynb`: Use of transfer learning to classify images into 11 categories by using the pre-trained ResNet50 model in TensorFlow.
+
+	3. `VAE MNIST.ipynb`: Training of CNN-based variational autoencoder on the MNIST digits dataset to **generate new data** in TensorFlow.
+
+	4. `Cats_Dogs_Breed_Classification.ipynb`: Use of transfer learning to classify images of cats and dog breeds into **37 categories** using the pre-trained ResNet50 model with an **F1-score of 99.3%** in TensorFlow.
+
+	5. `DCGAN MNIST.ipynb`: Implementation of DCGAN to generate MNIST digits by training on the MNIST digits dataset in TensorFlow.
+
+	6. `DCGAN CelebA.ipynb`: Implementation of DCGAN to generate synthetic faces by training on the CelebA dataset in TensorFlow. Adding smiles on the generated faces by manipulating the generated images.
+
+	7. `Fine Tune GPT2.ipynb`: Text generation by fine-tuning GPT-2 model on the billsum dataset.
+
+	8. `Molecule Generation LSTM.ipynb`: Reconstruction of molecules using LSTM-based autoencoder by training on the SMILES dataset in TensorFlow.
+
+3. `sample_images`: This folder contains images of results taken from the jupyter notebooks in the Deep Learning section.
+
+4. `README.md file`: This file contains documentation of the repository.
+
+## Results<a name="result"></a>
+
+This section displays few results from the jupyter notebooks in form of images.
+
+1. Face images generated by the DCGAN during training on CelebA dataset
+![alt text](https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha/blob/main/sample_images/gan_celeb.PNG)
+
+2. Adding smiles to the generated face images
+![alt text](https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha/blob/main/sample_images/add_smile.PNG)
+
+3. MNIST digits generated by the DCGAN during training
+![alt text](https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha/blob/main/sample_images/gan_mnist.PNG)
+
+4. Text generation by fine-tuning GPT-2 on billsum dataset
+![alt text](https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha/blob/main/sample_images/gpt2.PNG)
+
+5. Molecules reconstruction using LSTM autoencoders (SMILES dataset) 
+![alt text](https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha/blob/main/sample_images/molecule_gen.PNG)
+
+6. MNIST digits generation using CNN based Variational Autoencoder
+![alt text](https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha/blob/main/sample_images/image_grid.PNG)
+
+7. Visualization of latent space of Variational Autoencoder after training on MNIST digits dataset
+![alt text](https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha/blob/main/sample_images/latent_space.PNG)
+
+8. 2D Gaussian Distribution of latent space learned by the VAE for digit 0
+![alt text](https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha/blob/main/sample_images/gauss_dist.PNG)
+
+9. Classification results of cats and dogs breed on the test dataset
+![alt text](https://github.com/Ankit-Kumar-Saini/Machine-Learning-Lab-Plaksha/blob/main/sample_images/cat_dogs.PNG)
+
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Must give credit to Plaksha for the data and python 3 notebook.
-
-
-
-
-
-## Dependencies
-- Keras
-- TensorFlow
-- Numpy
-- Matplotlib
-- Seaborn
-
-## Results
-- Latent Space Visualization of all the classes in the mnist data set
-
-![alt text](https://github.com/Ankit-Kumar-Saini/Deep_Learning/blob/main/Image_Samples/Latent_Space_Visualization.PNG)
-
-- 2D Gaussian Distribution of latent space learned by the VAE for digit 0
-
-![alt text](https://github.com/Ankit-Kumar-Saini/Deep_Learning/blob/main/Image_Samples/Gaussian_Distribution.PNG)
-
-- Images generated from random sampling of 2-D latent space
-
-![alt text](https://github.com/Ankit-Kumar-Saini/Deep_Learning/blob/main/Image_Samples/Image_Generation.PNG) 
-
-- Change the 2-D latent space to generate new images by adjusting the slider inside the notebook
-
-![alt text](https://github.com/Ankit-Kumar-Saini/Deep_Learning/blob/main/Image_Samples/Change_2D_Latent_Space.PNG) 
-
-- Change the 9-D latent space to generate new images by adjusting the slider inside the notebook
-
-![alt text](https://github.com/Ankit-Kumar-Saini/Deep_Learning/blob/main/Image_Samples/Change_9D_Latent_Space.PNG) 
