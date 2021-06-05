@@ -26,38 +26,38 @@ The `requirements.txt file` list all the libraries/dependencies required to run 
 	1. `Data Sets`: This folder contains all the datasets that were used to complete the programming assignments.
 
 	2. `Jupyter Notebooks`: The following jupyter notebooks are present in this folder
-	    1. `Lab1 Taylor Series & Contour Plots.ipynb`: Code to approximate a given function at given points using Taylor Series expansion using numpy library.
+	    - `Lab1 Taylor Series & Contour Plots.ipynb`: Code to approximate a given function at given points using Taylor Series expansion using numpy library.
 
-	    2. `Lab2 Loss Functions.ipynb`: Implementation of different loss functions in numpy.
+	    - `Lab2 Loss Functions.ipynb`: Implementation of different loss functions in numpy.
 
-	    3. `Lab3 Linear Models.ipynb`: LinearRegression model training on random data using scikit-learn library.
+	    - `Lab3 Linear Models.ipynb`: LinearRegression model training on random data using scikit-learn library.
 
-	    4. `Lab4 Logistic Regression.ipynb`: LogisticRegression model to classify housing data into low and high price using scikit-learn library.
+	    - `Lab4 Logistic Regression.ipynb`: LogisticRegression model to classify housing data into low and high price using scikit-learn library.
 
-	    5. `Lab5 Random Forest Model and MLP.ipynb`: RandomForestClassifier and Multi Layer Perceptron (MLP) to classify MNIST digits using scikit-learn library.
+	    - `Lab5 Random Forest Model and MLP.ipynb`: RandomForestClassifier and Multi Layer Perceptron (MLP) to classify MNIST digits using scikit-learn library.
 
-	    6. `Lab6 Ensemble Methods.ipynb`: Training of Bagging and Voting classifiers using scikit-learn library.
+	    - `Lab6 Ensemble Methods.ipynb`: Training of Bagging and Voting classifiers using scikit-learn library.
 
-	    7. `Server Load Prediction.ipynb`: Prediction of server load using RandomForestClassifier model.
+	    - `Server Load Prediction.ipynb`: Prediction of server load using RandomForestClassifier model.
 
 
 3. `Deep Learning`: This folder contains deep learning assignments in form of jupyter notebooks. All the notebooks are not part of the Plaksha curriculum. Few notebooks resulted from my personal interest to go deeper into the deep learning domain. The following jupyter notebooks are present in this folder
 
-	1. `MNIST digit classification.ipynb`: Building and training of CNN model from scratch to classify MNIST digits into 10 classes (0-9). Use of image **data augmentation to avoid overfitting** during training.
+	- `MNIST digit classification.ipynb`: Building and training of CNN model from scratch to classify MNIST digits into 10 classes (0-9). Use of image **data augmentation to avoid overfitting** during training.
 
-	2. `Transfer Learning.ipynb`: Use of transfer learning to classify images into 11 categories by using the pre-trained ResNet50 model in TensorFlow.
+	- `Transfer Learning.ipynb`: Use of transfer learning to classify images into 11 categories by using the pre-trained ResNet50 model in TensorFlow.
 
-	3. `VAE MNIST.ipynb`: Training of CNN-based variational autoencoder on the MNIST digits dataset to **generate new data** in TensorFlow.
+	- `VAE MNIST.ipynb`: Training of CNN-based variational autoencoder on the MNIST digits dataset to **generate new data** in TensorFlow.
 
-	4. `Cats_Dogs_Breed_Classification.ipynb`: Use of transfer learning to classify images of cats and dog breeds into **37 categories** using the pre-trained ResNet50 model with an **F1-score of 99.3%** in TensorFlow.
+	- `Cats_Dogs_Breed_Classification.ipynb`: Use of transfer learning to classify images of cats and dog breeds into **37 categories** using the pre-trained ResNet50 model with an **F1-score of 99.3%** in TensorFlow.
 
-	5. `DCGAN MNIST.ipynb`: Implementation of DCGAN to generate MNIST digits by training on the MNIST digits dataset in TensorFlow.
+	- `DCGAN MNIST.ipynb`: Implementation of DCGAN to generate MNIST digits by training on the MNIST digits dataset in TensorFlow.
 
-	6. `DCGAN CelebA.ipynb`: Implementation of DCGAN to generate synthetic faces by training on the CelebA dataset in TensorFlow. Adding smiles on the generated faces by manipulating the generated images.
+	- `DCGAN CelebA.ipynb`: Implementation of DCGAN to generate synthetic faces by training on the CelebA dataset in TensorFlow. Adding smiles on the generated faces by manipulating the generated images.
 
-	7. `Fine Tune GPT2.ipynb`: Text generation by fine-tuning GPT-2 model on the billsum dataset.
+	- `Fine Tune GPT2.ipynb`: Text generation by fine-tuning GPT-2 model on the billsum dataset.
 
-	8. `Molecule Generation LSTM.ipynb`: Reconstruction of molecules using LSTM-based autoencoder by training on the SMILES dataset in TensorFlow.
+	- `Molecule Generation LSTM.ipynb`: Reconstruction of molecules using LSTM-based autoencoder by training on the SMILES dataset in TensorFlow.
 
 3. `sample_images`: This folder contains images of results taken from the jupyter notebooks in the Deep Learning section.
 
